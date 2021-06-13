@@ -1,8 +1,6 @@
 bin/
 build/
-applications/*/build
 framework/*/build
-/plugins/
 runtime/git-rebase/*
 runtime/SvnInfo.ftl
 runtime/GitInfo.ftl
@@ -18,8 +16,6 @@ runtime/catalina/work/*
 runtime/tempfiles/*
 runtime/indexes/products/
 !runtime/tempfiles/README
-applications/content/index/
-changelog
 .classpath
 .project
 .settings
@@ -27,7 +23,6 @@ changelog
 .groovy
 .pc
 .DS_Store
-desktop.ini
 .idea
 *.iml
 *.ipr
@@ -37,3 +32,4 @@ desktop.ini
 .*.swp
 .*.swo
 *.patch
+ofbiz.log
